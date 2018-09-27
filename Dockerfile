@@ -4,10 +4,11 @@ LABEL maintainer="jaeyeol@gmail.com"
 
 RUN apk update && \
     apk upgrade && \
-    apk add python3 && \
+    apk add python3 python && \
     pip3 install sqlalchemy mutagen phue && \
     apk add --update build-base linux-headers python3-dev nodejs nodejs-npm nmap libffi-dev openssl-dev && \
     pip3 install netdisco psutil && \
+    pip install --upgrade pip && \
     pip3 install --upgrade homeassistant && \
     mkdir -p /config && \
     
