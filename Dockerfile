@@ -10,8 +10,7 @@ RUN apk update && \
     pip3 install netdisco psutil && \
     pip3 install --upgrade homeassistant && \
     mkdir -p /config && \
-    apk del build-base linux-headers python3-dev 
-
+    
 CMD /usr/bin/hass -c /config
 
 
