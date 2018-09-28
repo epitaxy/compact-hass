@@ -8,8 +8,4 @@ RUN apk add --no-cache bash && \
     #pip3 install netdisco psutil && \
     pip3 install --upgrade homeassistant && \
     mkdir -p /config && \
-    
 ENTRYPOINT ["/usr/bin/hass", "-c", "/config"]
-
-
-
