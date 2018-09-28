@@ -12,7 +12,7 @@ RUN apk add --no-cache bash
     pip3 install --upgrade homeassistant && \
     mkdir -p /config && \
     
-CMD /usr/bin/hass -c /config
+ENTRYPOINT /usr/bin/hass -c /config
 
 
 
