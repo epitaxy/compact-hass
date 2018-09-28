@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine
 
 LABEL maintainer="jaeyeol@gmail.com"
 
