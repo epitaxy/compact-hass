@@ -2,7 +2,8 @@ FROM alpine
 
 LABEL maintainer="jaeyeol@gmail.com"
 
-RUN apk update && \
+RUN apk add --no-cache bash
+    apk update && \
     apk upgrade && \
     apk add python3 python && \
     pip3 install sqlalchemy mutagen phue && \
