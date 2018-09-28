@@ -7,5 +7,5 @@ RUN apk add --no-cache bash && \
     pip3 install sqlalchemy mutagen phue && \
     #pip3 install netdisco psutil && \
     pip3 install --upgrade homeassistant && \
-    mkdir -p /config && \
-ENTRYPOINT ["/usr/bin/hass", "-c", "/config"]
+    mkdir -p /config
+CMD /usr/bin/hass -c /config
