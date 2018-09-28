@@ -2,7 +2,7 @@ FROM alpine
 
 LABEL maintainer="jaeyeol@gmail.com"
 
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash && \
     apk update && \
     apk upgrade && \
     apk add python3 python && \
