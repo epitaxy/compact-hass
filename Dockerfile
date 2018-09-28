@@ -8,7 +8,6 @@ RUN apk update && \
     pip3 install sqlalchemy mutagen phue && \
     apk add --update build-base linux-headers python3-dev nodejs nodejs-npm nmap libffi-dev openssl-dev py-requests && \
     pip3 install netdisco psutil && \
-    pip install --upgrade pip && \
     pip3 install --upgrade homeassistant && \
     mkdir -p /config && \
     
