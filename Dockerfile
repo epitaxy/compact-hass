@@ -4,7 +4,7 @@ RUN apk add --no-cache bash && \
     apk update && \
     apk upgrade && \
     apk add python3 python && \
-    apk add build-base python3-dev linux-headers nmap libffi-dev openssl-dev py-requests openssh && \
+    apk add build-base python3-dev linux-headers nmap libffi-dev openssl-dev py-requests openssh bluze-dev && \
     pip3 install sqlalchemy mutagen phue && \
     pip3 install netdisco psutil && \
     pip3 install --upgrade homeassistant && \
