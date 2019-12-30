@@ -13,4 +13,4 @@ This docker image was tested on synology NAS (DS 1517+ and 918+) and ubuntu (x64
 # docker pull epitaxy/compact-hass
 # docker run -d --net=host epitaxy/compact-hass
 
-Huray!
+Hurray!
