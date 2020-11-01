@@ -3,7 +3,7 @@
 This is the dockerfile to generate lightweight docker image of homeassistant (hass) based on Alpine Linux.
 The size of the resultant docker image is less than 400 Mb but fully working for generic home automation environment.
 
-This docker image was tested on raspberry pi.
+This docker image was tested on Synology NAS, X86 systems, and raspberry pi.
 
 * WEMO, Philips Hue, nmap, pushbullet, Xiaomi devices, and plex were tested. 
 * nmap and psutil were installed for monitoring network and system resources.
