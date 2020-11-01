@@ -1,4 +1,4 @@
-FROM arm32v7/alpine
+FROM alpine
 LABEL maintainer="jaeyeol@gmail.com"
 RUN apk add --no-cache bash && \
     apk update && \
